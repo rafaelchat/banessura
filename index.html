@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Banessura | Debut Album</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ec1313",
+                        "accent-cyan": "#00f2ff",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#0a0505",
+                        "card-dark": "#1a0b0b",
+                    },
+                    fontFamily: {
+                        "display": ["Space Grotesk", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .glitch-text {
+            text-shadow: 2px 0 #00f2ff, -2px 0 #ec1313;
+        }
+        .slanted-container {
+            clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);
+        }
+        .shatter-overlay {
+            mask-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 50%, black 50%, black 75%, transparent 75%, transparent);
+            mask-size: 20px 20px;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 selection:bg-primary selection:text-white">
+<!-- Navigation Header -->
+<nav class="fixed top-0 z-50 w-full flex items-center justify-between px-6 py-4 bg-background-dark/80 backdrop-blur-md border-b border-primary/20">
+<div class="text-primary font-bold text-xl tracking-tighter">BNSRA</div>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-accent-cyan cursor-pointer">search</span>
+<span class="material-symbols-outlined text-slate-100 cursor-pointer">menu</span>
+</div>
+</nav>
+<main class="relative overflow-x-hidden pt-16">
+<!-- Hero Section -->
+<section class="relative h-[90vh] flex flex-col items-center justify-center text-center px-4 overflow-hidden">
+<div class="absolute inset-0 z-0 opacity-40 bg-cover bg-center" data-alt="Dark moody urban night scene with neon lights" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAcDCUAbrcZ3VE5XJhNO_X_jx7JA-X4DlvsxWVG9tsssSvF1qE6BpqN-vDeuTsLhugrTgVmWik-siIzhMXM7D0oiw9-oY1ULKeQB_Nc5S9NZtjRqr0uYNyvbJL-toKeGwgJev_Oo-TcFU_ODsB19l_xh4Ku6nMzHSyMpX3NR7ySutqMdvCmqTPVSpvj-RGoWS4PltzW6U3uXLCa1HKg1ZiKZkAHYsLFz1Kw-CbrShcdR-AHECKNt4NHUDgYMcB6IxUMWRUHVMBmPD0K');"></div>
+<div class="absolute inset-0 z-10 bg-gradient-to-t from-background-dark via-transparent to-background-dark/60"></div>
+<!-- Floating Elements / Glitch effects -->
+<div class="absolute top-1/4 left-10 w-24 h-[1px] bg-accent-cyan/50 rotate-45"></div>
+<div class="absolute bottom-1/4 right-10 w-32 h-[1px] bg-primary/50 -rotate-12"></div>
+<div class="z-20 space-y-6">
+<h1 class="text-7xl md:text-8xl font-black italic tracking-tighter text-white glitch-text uppercase leading-none">
+                    Bane<br/>ssura
+                </h1>
+<p class="text-accent-cyan font-medium tracking-[0.3em] uppercase text-sm">Visual Kei Odyssey • Out Now</p>
+<div class="pt-8">
+<button class="group relative px-10 py-4 bg-primary text-white font-bold text-lg tracking-widest rounded-none transform skew-x-[-12deg] overflow-hidden transition-all hover:bg-white hover:text-primary active:scale-95">
+<span class="relative z-10">LISTEN NOW</span>
+<div class="absolute inset-0 bg-accent-cyan/20 translate-x-full group-hover:translate-x-0 transition-transform"></div>
+</button>
+</div>
+</div>
+</section>
+<!-- Player Section -->
+<section class="px-4 py-12 bg-background-dark relative">
+<div class="max-w-md mx-auto bg-card-dark border border-primary/30 p-6 rounded-xl shadow-2xl shadow-primary/10">
+<div class="flex flex-col gap-6">
+<div class="relative aspect-square overflow-hidden rounded-lg group">
+<img alt="Album Cover" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Close up of a dramatic rock singer in visual kei makeup" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDyTrS6gF7vnZjW8rvK6OHFD5L6Xc9B09ycYLld5_oa4WM7s6TuFB1YdZlDjo21IJqma7rH8unLl9UtyORrv9nqDwxV-EHbZdg-wm_uLRTEZi9XKECU_3-cIwsHtocMl1jKE5xnPbJnQY7AP7j0MOk2MN5_3AyVovSHNyc-OBShLV7iWXPd6hJI3IYCBtE4tn0GlrZvQgC2itRZLyLeQFsd_IdufvQdmpY68QIcE2P2rjyESa7DzSdgqvB58DKg6yIP5tGwSwoamAyq"/>
+<div class="absolute inset-0 bg-primary/20 mix-blend-overlay"></div>
+</div>
+<div class="text-center space-y-1">
+<h2 class="text-2xl font-bold text-white uppercase tracking-tight">Neon Blood</h2>
+<p class="text-primary font-medium">Banessura — Debut Album</p>
+</div>
+<!-- Visualizer Mockup -->
+<div class="flex items-end justify-center gap-1 h-12 py-2">
+<div class="w-1 bg-primary h-4 animate-pulse"></div>
+<div class="w-1 bg-primary h-8"></div>
+<div class="w-1 bg-primary h-12"></div>
+<div class="w-1 bg-primary h-6"></div>
+<div class="w-1 bg-primary h-10"></div>
+<div class="w-1 bg-accent-cyan h-3"></div>
+<div class="w-1 bg-primary h-7"></div>
+<div class="w-1 bg-primary h-11"></div>
+<div class="w-1 bg-primary h-5"></div>
+<div class="w-1 bg-primary h-9"></div>
+</div>
+<!-- Progress Bar -->
+<div class="space-y-2">
+<div class="h-1 w-full bg-slate-800 rounded-full overflow-hidden flex">
+<div class="h-full bg-primary w-[45%]"></div>
+<div class="h-full bg-accent-cyan w-[2%]"></div>
+</div>
+<div class="flex justify-between text-[10px] uppercase font-bold text-slate-500 tracking-widest">
+<span>01:42</span>
+<span>03:58</span>
+</div>
+</div>
+<!-- Controls -->
+<div class="flex items-center justify-between px-4">
+<button class="text-slate-400 hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">shuffle</span>
+</button>
+<div class="flex items-center gap-8">
+<button class="text-white hover:text-primary">
+<span class="material-symbols-outlined text-4xl" style="font-variation-settings: 'FILL' 1">skip_previous</span>
+</button>
+<button class="size-16 bg-white text-background-dark rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-all transform active:scale-90 shadow-lg shadow-white/10">
+<span class="material-symbols-outlined text-4xl" style="font-variation-settings: 'FILL' 1">play_arrow</span>
+</button>
+<button class="text-white hover:text-primary">
+<span class="material-symbols-outlined text-4xl" style="font-variation-settings: 'FILL' 1">skip_next</span>
+</button>
+</div>
+<button class="text-slate-400 hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">repeat</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Manifesto / About Section -->
+<section class="py-20 relative px-4">
+<div class="slanted-container bg-primary p-1 absolute inset-0 -z-10 opacity-10"></div>
+<div class="space-y-12">
+<div class="relative inline-block">
+<h3 class="text-4xl font-black uppercase italic text-white tracking-tighter">The Manifesto</h3>
+<div class="absolute -bottom-2 left-0 w-full h-1 bg-accent-cyan"></div>
+</div>
+<div class="grid gap-8">
+<div class="p-6 bg-card-dark border-l-4 border-primary transform -skew-x-2">
+<p class="text-lg leading-relaxed font-light italic">
+                            "Banessura isn't just an album. It's the sound of the urban night shattering. We took the classic Visual Kei spirit and fed it through a digital meat grinder."
+                        </p>
+</div>
+<div class="p-6 bg-card-dark border-r-4 border-accent-cyan text-right transform skew-x-2">
+<p class="text-lg leading-relaxed font-light italic">
+                            "Every note is a neon strobe. Every lyric is a glitch in the simulation. This is high-energy chaos for those who live after dark."
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Newsletter Section -->
+<section class="px-6 py-20 bg-gradient-to-b from-background-dark to-black">
+<div class="text-center space-y-8">
+<div class="space-y-2">
+<h4 class="text-3xl font-bold uppercase tracking-tight text-white">Join the Chaos</h4>
+<p class="text-slate-400 text-sm tracking-wide">Get exclusive access to tour dates and limited vinyl drops.</p>
+</div>
+<form class="max-w-md mx-auto space-y-4">
+<div class="relative">
+<input class="w-full bg-slate-900 border border-slate-700 focus:border-primary focus:ring-0 text-white p-4 tracking-widest placeholder:text-slate-600" placeholder="EMAIL ADDRESS" type="email"/>
+</div>
+<button class="w-full py-4 bg-accent-cyan text-black font-black uppercase tracking-[0.2em] transition-all hover:bg-primary hover:text-white flex items-center justify-center gap-2 group">
+<span>SUBSCRIBE</span>
+<span class="material-symbols-outlined group-hover:translate-x-2 transition-transform">bolt</span>
+</button>
+</form>
+</div>
+</section>
+</main>
+<!-- Footer / Bottom Nav Bar -->
+<footer class="bg-background-dark border-t border-slate-800">
+<div class="flex justify-around items-center px-4 py-6">
+<a class="text-primary flex flex-col items-center gap-1" href="#">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1">house</span>
+</a>
+<a class="text-slate-500 hover:text-accent-cyan flex flex-col items-center gap-1" href="#">
+<span class="material-symbols-outlined text-3xl">music_note</span>
+</a>
+<a class="text-slate-500 hover:text-accent-cyan flex flex-col items-center gap-1" href="#">
+<span class="material-symbols-outlined text-3xl">album</span>
+</a>
+<a class="text-slate-500 hover:text-accent-cyan flex flex-col items-center gap-1" href="#">
+<span class="material-symbols-outlined text-3xl">share</span>
+</a>
+<a class="text-slate-500 hover:text-accent-cyan flex flex-col items-center gap-1" href="#">
+<span class="material-symbols-outlined text-3xl">person</span>
+</a>
+</div>
+<div class="pb-8 text-center">
+<p class="text-[10px] text-slate-700 font-bold tracking-[0.4em] uppercase">© 2024 Banessura Collective</p>
+</div>
+</footer>
+</body></html>
